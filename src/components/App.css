@@ -37,3 +37,32 @@
     transform: translateY(0px);
   }
 }
+.equipmantTable {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+}
+
+table,
+td,
+th {
+  border: 2px black solid;
+  padding: 7px;
+}
+
+tr {
+  background-color: paleturquoise;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.signatureCanvas {
+  width: 35%;
+  min-height: 10px;
+  border: 1px solid black;
+}
